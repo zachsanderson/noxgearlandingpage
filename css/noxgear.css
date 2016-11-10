@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #040404;
 }
 .bg-dark {
   background-color: #222222;
@@ -181,7 +181,7 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
-.jumbotron {
+#jumbotron .jumbotron {
     margin-bottom: 0px;
     background-image: url(../img/jumbotronbackground.jpg);
     background-position: 0% 25%;
@@ -191,8 +191,13 @@ header .header-content .header-content-inner p {
     text-shadow: black 0.3em 0.3em 0.3em;
     padding-top: 100px;
 }
-#jumbotron {
+#jumbotron, #video {
   padding: 0;
+}
+#video .container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px;
 }
 @media (min-width: 768px) {
   header {
