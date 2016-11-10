@@ -91,6 +91,9 @@ aside {
   font-weight: 700;
   font-size: 13px;
   color: #222222;
+  min-width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -108,7 +111,7 @@ aside {
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    /*border-color: rgba(255, 255, 255, 0.3);*/
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -423,7 +426,7 @@ fieldset[disabled] .btn-primary.active {
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 10px;
+  border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
 }
