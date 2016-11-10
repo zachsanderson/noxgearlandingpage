@@ -187,7 +187,7 @@ header .header-content .header-content-inner p {
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     padding-top: 350px;
@@ -329,6 +329,9 @@ header .header-content .header-content-inner p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+.navbar-nav>li {
+  margin-left: 15px;
+}
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -371,8 +374,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #f6221e;
+  border-color: #f6221e;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -420,7 +423,7 @@ fieldset[disabled] .btn-primary.active {
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 300px;
+  border-radius: 10px;
   font-weight: 700;
   text-transform: uppercase;
 }
