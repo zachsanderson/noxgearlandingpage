@@ -48,10 +48,9 @@ p {
   margin-bottom: 20px;
 }
 .jumbotron p {
-  margin: 20px 0;
+  margin: 25px 0 45px 0;
   font-family: 'Oswald', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 30px;
-  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   .jumbotron .h1, .jumbotron h1 {
@@ -93,8 +92,8 @@ aside {
   margin: 0;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #f6221e;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #777;
+  font-family: 'Oswald', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -291,7 +290,7 @@ header .header-content .header-content-inner p {
 @media (min-width: 1100px) {
   #jumbotron .jumbotron {
     min-height: 900px;
-    padding-top: 500px;
+    padding-top: 420px;
   }
 }
 @media (min-width: 1500px) {
@@ -477,7 +476,11 @@ fieldset[disabled] .btn-primary.active {
   border-width: 3px;
 }
 .btn-xl {
-  padding: 15px 30px;
+  padding: 10px 30px;
+}
+#playvideo {
+  padding: 20px 30px;
+  font-size: 20px;
 }
 ::-moz-selection {
   color: white;
