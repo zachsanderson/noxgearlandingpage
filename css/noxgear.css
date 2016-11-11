@@ -98,8 +98,8 @@ aside {
   font-size: 10px;
   color: white;
   /*min-width: 150px;*/
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -124,6 +124,8 @@ aside {
   .navbar-default .nav > li > a:focus {
     font-size: 13px;
     min-width: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 @media (min-width: 768px) {
