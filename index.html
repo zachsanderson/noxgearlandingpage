@@ -104,7 +104,7 @@
                 <div class="col-md-6 col-xs-12">
                     <h1 id="homeHeading">Noxgear is kick ass</h1>
                     <p>The Tracer360 is kickass. I have also found that the LightHound is pretty kickass too. My dog agrees.</p>
-                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                    <a id="playvideo" href="#video" class="btn btn-primary btn-xl page-scroll">Watch video</a>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@
         
         <div class="container">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://player.vimeo.com/video/190764685?badge=0&title=0&byline=0&portrait=0&color=040404" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe id="player1" src="https://player.vimeo.com/video/190764685?badge=0&title=0&byline=0&portrait=0&color=040404" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
         
@@ -355,14 +355,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
-
     <script type="text/javascript">
-    $( '#amazonRedirect' ).click(function() {
-    fbq('track', 'Lead');
-    });
+        $( '#amazonRedirect' ).click(function() {
+            fbq('track', 'Lead');
+        });
+
+        $(function(){
+            var iframe = $('#player1')[0],
+                player = new Vimeo.Player(iframe);
+
+            console.log(iframe);
+
+            $('#playvideo').click(function() {
+                player.play();
+                console.log("Hello");
+            });
+        });
     </script>
 
 </body>
