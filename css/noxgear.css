@@ -51,6 +51,7 @@ p {
   margin: 20px 0;
   font-family: 'Oswald', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 30px;
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   .jumbotron .h1, .jumbotron h1 {
