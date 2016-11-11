@@ -471,6 +471,9 @@ fieldset[disabled] .btn-primary.active {
   text-shadow: none;
   background: #222222;
 }
+.testimonial {
+  margin: 0 auto;
+}
 img::selection {
   color: white;
   background: transparent;
