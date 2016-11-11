@@ -52,10 +52,12 @@ p {
   font-family: 'Oswald', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 30px;
 }
-@media screen and (min-width: 768px)
-.jumbotron .h1, .jumbotron h1 {
+@media screen and (min-width: 768px) {
+  .jumbotron .h1, .jumbotron h1 {
     font-size: 50px;
+  }  
 }
+
 .bg-primary {
   background-color: #040404;
 }
