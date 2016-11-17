@@ -96,6 +96,7 @@ aside {
   font-family: 'Oswald', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 14px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -143,6 +144,9 @@ aside {
     padding-top: 8px;
     padding-bottom: 8px;
   }
+  .navbar-nav>li {
+    margin-right: 15px;
+  }
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -151,6 +155,7 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand {
     /*color: rgba(255, 255, 255, 0.7);*/
+    font-size: 20px;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -374,7 +379,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 .navbar-nav>li {
-  margin-right: 15px;
+  /*margin-right: 15px;*/
   padding-top: 5px;
   padding-bottom: 5px;
   float: left;
