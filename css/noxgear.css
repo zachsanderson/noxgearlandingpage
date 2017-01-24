@@ -58,6 +58,14 @@ p {
   }  
 }
 
+.rounded6 {
+  background-color: transparent;
+}
+
+body {
+  background-color: transparent;
+}
+
 .bg-primary {
   background-color: #040404;
 }
